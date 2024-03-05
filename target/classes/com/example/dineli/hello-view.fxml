@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dineli.HelloController">
+  <children>
+      <Label fx:id="FoodFave" layoutX="182.0" layoutY="25.0" onDragDetected="#FoodFave" text="Food Fave Queue System">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <Label fx:id="Cash1" layoutX="32.0" layoutY="71.0" onDragDetected="#Cash1" text="Cash 1" />
+      <Label fx:id="Cash2" layoutX="131.0" layoutY="71.0" onDragDetected="#Cash2" text="Cash 2" />
+      <Label fx:id="Cash3" layoutX="232.0" layoutY="71.0" onDragDetected="#Cash3" text="Cash 3" />
+      <Label fx:id="WaitingList" layoutX="433.0" layoutY="71.0" onDragDetected="#waitinglist" text="Waiting List" />
+      <Label fx:id="S_Customer" layoutX="36.0" layoutY="258.0" onDragDetected="#S_Customer" text="Searc Customer" />
+      <TextField fx:id="CustomerName" layoutX="175.0" layoutY="254.0" onAction="#CustomerName" />
+      <Button fx:id="SearchtheCustomerName" layoutX="391.0" layoutY="254.0" mnemonicParsing="false" onAction="#Search" text="Search" />
+      <Button fx:id="Exit" layoutX="534.0" layoutY="361.0" mnemonicParsing="false" onAction="#Exit" text="Exit" />
+      <Label fx:id="X1" layoutX="36.0" layoutY="106.0" onDragDetected="#X1" text="X" />
+      <Label fx:id="X2" layoutX="36.0" layoutY="135.0" onDragDetected="#X2" text="X" />
+      <Label fx:id="X3" layoutX="135.0" layoutY="106.0" onDragDetected="#X3" text="X" />
+      <Label fx:id="X4" layoutX="135.0" layoutY="135.0" onDragDetected="#X4" text="X" />
+      <Label fx:id="X6" layoutX="236.0" layoutY="106.0" onDragDetected="#X6" text="X" />
+      <Label fx:id="X11" layoutX="453.0" layoutY="106.0" onDragDetected="#X11" text="X" />
+      <Label fx:id="X7" layoutX="236.0" layoutY="135.0" onDragDetected="#X7" text="X" />
+      <Label fx:id="X12" layoutX="453.0" layoutY="135.0" onDragDetected="#X12" prefHeight="18.0" prefWidth="7.0" text="X" />
+      <Label fx:id="X5" layoutX="135.0" layoutY="161.0" onDragDetected="#X5" text="X" />
+      <Label fx:id="X8" layoutX="236.0" layoutY="161.0" onDragDetected="#X8" text="X" />
+      <Label fx:id="X13" layoutX="453.0" layoutY="161.0" onDragDetected="#X13" prefHeight="0.0" prefWidth="7.0" text="X" />
+      <Label fx:id="X9" layoutX="236.0" layoutY="191.0" onDragDetected="#X9" text="X" />
+      <Label fx:id="X10" layoutX="236.0" layoutY="219.0" text="X" />
+      <Label fx:id="X14" layoutX="453.0" layoutY="191.0" onDragDetected="#X14" text="X" />
+      <Label fx:id="X15" layoutX="453.0" layoutY="219.0" onDragDetected="#X15" text="X" />
+      <TextArea fx:id="View" layoutX="164.0" layoutY="287.0" onDragDetected="#View" prefHeight="94.0" prefWidth="166.0" />
+      <Label fx:id="V_Customer" layoutX="53.0" layoutY="294.0" onDragDetected="#V_Customer" text="Viwe the Customer" />
+      <Button fx:id="Update" layoutX="496.0" layoutY="254.0" mnemonicParsing="false" onAction="#Update" text="Update" />
+  </children>
+</AnchorPane>
